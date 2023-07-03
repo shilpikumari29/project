@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body background="background.jpg">
+  <header>
+    <div class="container">
+      <font size="7" face="spantaran" color="dodgerblue">My</font>
+      <font size="7" face="spantaran" color="deeppink">Portfolio</font>
+      <nav>
+        <ul>
+          <li><a href="Welcome to my portfolio website">Home</a></li>
+          <li><a href="About Me">About</a></li>
+          <li><a href="My Portfolio">Portfolio</a></li>
+          <li><a href="My Resume">Resume</a></li>
+          <li><a href="Contact Me">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container">
+        <marquee behavior="alternate">
+        <font size="7" face="spantaran" color="dodgerblue"> <h5 text="yellow">Welcome to my portfolio website</h5></marquee><br></font>
+        <marquee>
+        <font size="7" face="spantaran" color="deeppink">Shilpi Kumari</font>
+      </marquee>
+        <br><br><br><br><br><br>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Shilpi Kumari. I'm a web developer with I'm a fresher in the industry. I specialize in front-end development using HTML, CSS, and JavaScript. I'm passionate about creating clean and responsive websites that deliver a great user experience.</p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2>My Portfolio</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="project1.png" alt="Project 1">
+              <a href="contact.py"><h3>Project 1</h3></a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="project2.png" alt="Project 2">
+              <a href="shivam python project.py"><h3>Project 2</h3></a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="project3.png" alt="Project 3">
+              <a href="library management system.c"><h3>Project 3</h3></a>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="container">
+        <h2>My Resume</h2>
+        <a href="shilpi kumari.docx">Download my resume</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
